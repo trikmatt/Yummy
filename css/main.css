@@ -8,23 +8,24 @@ body {
   position: fixed;
   padding: 8px 16px;
   width: 100%;
+  border-bottom: 2px solid grey;
 }
 .main-header__brand {
     size: 16px;
 }
 .main-header > div {
-    display: inline-block;
 }
 .main-header__brand img{
-    object-fit: contain;
+    height: 22px;
 }
 .main-nav {
-    display: inline-block;
     text-align: right;
 }
 .main-nav_items {
-    display: inline-block;
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.main-nav_items li{
+    font-size: 12px;
 }
